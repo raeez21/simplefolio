@@ -6,11 +6,24 @@ html {
   }
 }
 
+
+@font-face {
+  font-family: 'Callume Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Callume Regular'), url('CallumeRegular-wowax.woff') format('woff');
+  }
+
 body {
-  font-family: "Palatino Linotype","Monaco","Papyrus","Montserrat", sans-serif;
+  font-family: 'Callume Regular',"Palatino Linotype","Monaco","Papyrus","Montserrat", sans-serif;
   // font-family: "Lucida Console", "Courier New", monospace;
   text-align: center;
   scroll-behavior: smooth;
+}
+
+.about-raeez{
+  font-family: Tahoma;
+  font-size: 1.8rem;
 }
 
 /* Scrollbar */
